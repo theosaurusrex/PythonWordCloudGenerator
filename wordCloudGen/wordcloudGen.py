@@ -5,6 +5,8 @@ from PIL import Image
 import numpy as np
 currdir = os.path.dirname(__file__)
 
+# class wordcloudGen:
+
 def get_wiki(query):
 
     title = wikipedia.search(query)[0]
